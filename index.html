@@ -31,9 +31,9 @@
     <div>
 
       <article> <!-- make 3 articles-->
-    <!-- sections intro, about me, contact -->
+    <!-- make sections intro, about me, contact -->
         <section>
-          <h2> Mikhail </h2> <!-- who am i, where i live-->
+          <h2><article id="Mikhail"> Mikhail </article> </h2> <!-- who am i, where i live-->
             <p> Hi, my name is Mikhail! I'm an aspiring software/game developer living in Las Vegas, Nevada.</p>
 
             <p> My love for video games made me curious about:
@@ -48,18 +48,41 @@
         </section>
       </article>
       
-      <article>
-        <section>
-          <h2> About Me </h2>
-            <p></p>
+      <article style="position:absolute; top: 300px; right: 140px">
+        <section> <!-- talk little about me-->
+          <h2><article id="About-Me"> About Me</article> </h2>
+            <p>I've been on a journey on finding what I really want to do in life <br>
+              and I figured out two things. First is games which lead me into coding and <br>
+              second is food which one day I hope to open my own restaurant. <br>
+              But for now I am fully focused on starting my path to becoming <br>
+              a game developer.
+            </p>
+
+            <p>As I looked for options to start my coding journey, I found thinkful. <br>
+              And I could not be any happier. Their prep course was not only helpful <br>
+              in providing great information but also allowing me to hone my skills <br>
+              as early as now in coding with their excercises and assessments. 
+            </p>
+
+            <p>If ever you are looking for a new game developer or just a helping <br>
+            hand. Please reach out! Also if you have any tips on getting better <br>
+            I would love to pick your brain. I'm so excited for the new <br>
+            opportunities that await. 
         </section>
 
       </article>
 
-      <article>
+      <article style="position:absolute; bottom: 0">
         <section>
-          <h2> Contact </h2>
-            <p></p>
+          <h2><article id="Contact">Contact</article></h2>
+            <p> 
+              <div class="links">
+              <ol>
+                <li><a href="https://github.com/mikhailjlajom">Github</li>
+                <li><a href="#">LinkedIn(to follow) </li>
+              </ol> 
+              </div>
+            </p>
         </section> 
       </article>
 
@@ -68,7 +91,7 @@
   </main>
 
     <footer> <!-- my name and position -->
-      <p>© Mikhail "Software Engineer"</p>
+      <p class="name-title">© Mikhail "Software Engineer"</p>
     </footer>
 
   <script src="script.js"></script>
