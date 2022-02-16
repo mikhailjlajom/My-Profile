@@ -1,7 +1,10 @@
+
+
 body {
   min-width: 350px;
 }
 
+/* dont forget to use font styles*/
 /* style header */
 header {
   background-color: black;
@@ -17,7 +20,7 @@ footer {
   
 }
 
-
+/* style for text*/
 h1, h2, p, li {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: justify;
@@ -30,6 +33,7 @@ h1 {
   float: left;
 }
 
+/* make margins, padding, width*/
 nav {
   
   padding: 10px;
@@ -40,8 +44,8 @@ nav {
 }
 
 main {
-  background-image: url("images/me.jpg");
-  height: 1500px;
+  background-color: #d7e8ec;
+  height: 1000px;
 }
 
   header:after, 
@@ -51,6 +55,7 @@ nav:after {
   clear: both;
 }
 
+/* change top links style*/
 .topnav {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
@@ -70,6 +75,7 @@ nav:after {
   color: #69a2fc
 }
 
+/* create borders for section*/
 section {
   width: 300px;
   border: 2px groove white;
@@ -77,6 +83,7 @@ section {
   margin: 20px;
 }
 
+/* dont forget to change font for p, li*/
 p, li {
   color: black;
   font-weight: bold;
@@ -85,3 +92,4 @@ p, li {
 .name-title {
   color: white;
 }
+

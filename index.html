@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-    <header>
-      <div>
-        <h1>Portfolio</h1>
-      </div>
-      
-      <div class="topnav"> <!-- top navigation-->
-        <nav> 
-          <!-- links to part of main-->
-          <a href="#Mikhail">Intro</a> | 
-          <a href="#About-Me">About Me</a> | 
-          <a href="#Contact"> Contact</a> 
-        </nav>
+<body>
 
+	<header>
+		<!-- name of project>-->
+		<div>
+			<h1>Portfolio</h1>
+		</div>
+
+		<div class="topnav">
+			<!-- top navigation-->
+			<nav>
+				<!-- links to part of main-->
+				<!-- use href to link them-->
+				<a href="#Mikhail">Intro</a> |
+				<a href="#About-Me">About Me</a> |
+				<a href="#Contact"> Contact</a>
+			</nav>
+
+
+
+	</header>
+<!-- dont forget to use img, hr, h3 -->
+	<main>
     
-
-    </header>
-
-  <main>
-
+      <p style="position:absolute; left: 25%"><img src="images/me.jpg" alt="Logo"></p> 
+  
     <div>
-
       <article> <!-- make 3 articles-->
     <!-- make sections intro, about me, contact -->
+    <!-- make p and include content needed -->
         <section>
+          
           <h2><article id="Mikhail"> Mikhail </article> </h2> <!-- who am i, where i live-->
-            <p> Hi, my name is Mikhail! I'm an aspiring software/game developer living in Las Vegas, Nevada.</p>
+            <h3> Hi, my name is Mikhail! I'm an aspiring software/game developer living in Las Vegas, Nevada.</h3>
 
+            <!-- make a list of things-->
             <p> My love for video games made me curious about:
               <ul>
                 <li> How to program video games?</li>
@@ -50,20 +58,21 @@
       
       <article style="position:absolute; top: 300px; right: 140px">
         <section> <!-- talk little about me-->
-          <h2><article id="About-Me"> About Me</article> </h2>
+          <h2><article id="About-Me"> About Me</article> </h2> <!-- here comes content-->
+          <!-- dont forget to us hr-->
             <p>I've been on a journey on finding what I really want to do in life <br>
               and I figured out two things. First is games which lead me into coding and <br>
               second is food which one day I hope to open my own restaurant. <br>
               But for now I am fully focused on starting my path to becoming <br>
               a game developer.
             </p>
-
+              <hr>
             <p>As I looked for options to start my coding journey, I found thinkful. <br>
               And I could not be any happier. Their prep course was not only helpful <br>
               in providing great information but also allowing me to hone my skills <br>
               as early as now in coding with their excercises and assessments. 
             </p>
-
+              <hr>
             <p>If ever you are looking for a new game developer or just a helping <br>
             hand. Please reach out! Also if you have any tips on getting better <br>
             I would love to pick your brain. I'm so excited for the new <br>
@@ -72,20 +81,21 @@
 
       </article>
 
-      <article style="position:absolute; bottom: 0">
+      <article>
         <section>
           <h2><article id="Contact">Contact</article></h2>
             <p> 
-              <div class="links">
+              <div class="links"> <!-- make order list-->
+              <!-- dont forget to make links for contacts-->
               <ol>
                 <li><a href="https://github.com/mikhailjlajom">Github</li>
-                <li><a href="#">LinkedIn(to follow) </li>
+                <li><a href="https://www.linkedin.com/in/mikhail-jordan-lajom-785150232/">LinkedIn</li>
               </ol> 
               </div>
             </p>
         </section> 
       </article>
-
+      
     </div>
 
   </main>
